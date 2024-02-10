@@ -159,14 +159,12 @@ export default function App() {
 	};
 
 	const generateBinomesLogic = (classe) => {
-		// Génération des binômes
 		const newBinomes = generateBinomes(classe);
 
 		console.log('====================================');
 		console.log(newBinomes);
 		console.log('================ ====================');
 
-		// Mise à jour de l'état binomes
 		setBinomes(newBinomes);
 
 		setLoading(false);
